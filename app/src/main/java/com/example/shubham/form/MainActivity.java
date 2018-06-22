@@ -72,6 +72,7 @@ Button disp;
                 editor.commit();
                 startActivity(i);
                 finish();
+                //add comment
             }
         });
 
