@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back"
+    tools:context="com.example.shubham.form.DisplayActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textv"
+        android:text="@string/dname"
+        android:id="@+id/dname"
+        android:fontFamily="casual"
+        android:layout_marginVertical="@dimen/margin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textv"
+        android:text="@string/demail"
+        android:id="@+id/demail"
+        android:fontFamily="casual"
+        android:layout_marginVertical="@dimen/margin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textv"
+        android:text="@string/dgender"
+        android:id="@+id/dgender"
+        android:fontFamily="casual"
+        android:layout_marginVertical="@dimen/margin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textv"
+        android:text="@string/dage"
+        android:fontFamily="casual"
+        android:layout_marginTop="@dimen/margin"
+        android:id="@+id/dage"/>
+
+
+</LinearLayout>

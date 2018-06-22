@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/back"
+    tools:context="com.example.shubham.form.MainActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/name"
+    android:textSize="@dimen/edittext"
+    android:id="@+id/etname"
+    android:inputType="text"
+    android:gravity="center"
+    android:fontFamily="casual"
+    android:layout_marginHorizontal="@dimen/margin"
+    android:layout_marginVertical="@dimen/margin"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:id="@+id/etemail"
+        android:fontFamily="casual"
+        android:layout_below="@id/etname"
+        android:textSize="@dimen/edittext"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:id="@+id/tvgender"
+        android:layout_below="@id/etemail"
+        android:textSize="@dimen/edittext"
+        android:gravity="center"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:layout_marginVertical="@dimen/margin"
+        android:fontFamily="casual"
+        />
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvgender"
+    android:orientation="horizontal"
+    android:id="@+id/gender"
+    android:layout_marginHorizontal="@dimen/margin1"
+    android:layout_marginBottom="@dimen/margin"
+    android:fontFamily="casual"
+    >
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/male"
+        android:id="@+id/Bmale"
+        android:checked="true"
+        android:textSize="@dimen/edittext"
+        android:layout_weight="1"
+        android:textAlignment="center" android:fontFamily="casual"
+        />
+
+    <RadioButton
+        android:id="@+id/Bfemale"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/female"
+        android:textSize="@dimen/edittext"
+        android:checked="false"
+        android:textAlignment="center"
+        android:layout_weight="1" android:fontFamily="casual"/>
+</RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:id="@+id/etage"
+        android:layout_below="@id/gender"
+        android:textSize="@dimen/edittext"
+        android:layout_marginHorizontal="@dimen/margin"
+        android:gravity="center"
+        android:inputType="number"
+        android:fontFamily="casual"
+        android:layout_marginBottom="@dimen/margin"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/edittext"
+        android:text="@string/display"
+        android:layout_marginTop="@dimen/edittext"
+        android:fontFamily="casual"
+        android:id="@+id/disp"/>
+</RelativeLayout>

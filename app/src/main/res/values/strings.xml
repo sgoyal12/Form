@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Form</string>
+    <string name="name" translatable="false">Enter Your Name Here</string>
+    <string name="email" translatable="false">Enter Your E-Mail ID Here</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="gender" translatable="false">Select Your Gender</string>
+    <string name="age" translatable="false">Enter Your Age</string>
+    <string name="lang" translatable="false">Language</string>
+    <string name="display" translatable="false">Display</string>
+    <string name="dname" translatable="false">Your Name:</string>
+    <string name="demail" translatable="false">Your E-Mail Id:</string>
+    <string name="dgender" translatable="false">Your Gender:</string>
+    <string name="dage" translatable="false">Your Age:</string>
+</resources>

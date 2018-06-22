@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Form</string>
+    <string name="name" translatable="false">अपना नाम यहाँ दर्ज करें</string>
+    <string name="email" translatable="false">यहां अपना ई-मेल आईडी दर्ज करें</string>
+    <string name="male" translatable="false">नर</string>
+    <string name="female" translatable="false">महिला</string>
+    <string name="gender" translatable="false">अपना लिंग चुनें</string>
+    <string name="age" translatable="false">अपनी आयु दर्ज करें</string>
+    <string name="lang" translatable="false">भाषा</string>
+    <string name="display" translatable="false">प्रदर्शन</string>
+    <string name="dname" translatable="false">आपका नाम:</string>
+    <string name="demail" translatable="false">आपका ई-मेल आईडी:</string>
+    <string name="dgender" translatable="false">तुम्हारा लिंग:</string>
+    <string name="dage" translatable="false">आपकी उम्र:</string>
+</resources>
